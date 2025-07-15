@@ -73,7 +73,7 @@ def predict_jump(model, features, symbol):
         return 0  # Return 0 probability if prediction fails
 
 
-def scan_for_opportunities(threshold=0.7, max_cap=1e9):
+def scan_for_opportunities(threshold=0.6, max_cap=1e9):
     """
     Scan all low-cap stocks and return those with high probability to rise
     """
